@@ -10,7 +10,7 @@ class Car {
       this.speed += speedIncrease;
       console.log(`The ${this.make} ${this.model} is now traveling at ${this.speed} mph.`);
     }
-  
+  //this function have been  commented
     brake(speedDecrease) {
       if (this.speed >= speedDecrease) {
         this.speed -= speedDecrease;
