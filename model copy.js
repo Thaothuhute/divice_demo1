@@ -1,4 +1,4 @@
-class Car {
+class Camry {
     constructor(make, model, year) {
       this.make = make;
       this.model = model;
@@ -27,4 +27,6 @@ class Car {
   
   // Example usage
   const myCar = new Car('Toyota', 'Camry', 2020);
-  
+  myCar.accelerate(50); // The Toyota Camry is now traveling at 50 mph.
+  myCar.brake(20); // The Toyota Camry slowed down to 30 mph.
+  myCar.honk(); // Beep beep! The Toyota Camry is honking.

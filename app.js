@@ -17,5 +17,7 @@ function greet(name) {
   console.log("Hello, " + name + "!");
 }
 
+kkkjbjhjh
+
 // Call the function
 greet("John");
